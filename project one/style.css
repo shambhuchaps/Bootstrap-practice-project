@@ -1,0 +1,21 @@
+.nav-bg{
+  background-color:#065081;
+}
+
+.navbar-nav .nav-link{
+  color: white;
+  font-weight:400 ;
+}
+.carousel-inner .d-block{
+  height: 30rem;
+}
+.contact-bg{
+  background-color: #f1f1f1;
+}
+.btn-danger{
+  background-color: #065081;
+  border: none;
+}
+.btn-danger:hover{
+  background-color: #096bac;
+}

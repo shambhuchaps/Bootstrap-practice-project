@@ -1,0 +1,152 @@
+.nav-bg{
+  background-color: rgb(255, 212, 245);
+  padding: 0 8%;
+}
+.width-logo{
+  width: 100%;
+  height: 5rem;
+}
+.navbar-nav .nav-link{
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  font-weight: 400;
+}
+.searchbox{
+  background-color: #ec98d9;
+  /* box-shadow: 5px 5px 5px 0px #ecbce9; */
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.searchbox::placeholder{
+  color: white;
+}
+.searchbtn{
+  background-color: #ec98d9;
+  border: none;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.searchbtn:hover{
+  border: 1px solid black;
+}
+
+@media only screen and (max-width: 768px){
+  .nav-bg{
+    padding: 0;
+  }
+}
+/* banner */
+.banner{
+  background-color: #ec98d9;
+}
+.bannertext h1{
+  font-size: 4rem;
+}
+.banner-btn-1{
+  background-color: #00bec9;
+  border: 2px solid #00bec9;
+}
+
+@media only screen and (max-width: 1168px){
+  .bannertext h1{
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 888px){
+  .bannertext h1{
+    font-size: 2.5rem;
+  }
+}
+
+/* service  */
+.service-btn{
+  color: white;
+  background-color: #ec98d9;
+  border: 2px solid #ec98d9;
+}
+.service-btn:hover{
+  color: black;
+  border: 2px solid rgb(236, 152, 217);
+}
+
+/* counter-section  */
+
+.color-overlay{
+  background-image:url(/images/blog-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.counter-section{
+  background-color: rgba(236, 152, 216, 0.773);
+}
+.counter-icon{
+  font-size: 3.5rem;
+}
+
+@media only screen and (max-width: 575px){
+  .counter-icon{
+    font-size: 2.5rem;
+  }
+}
+
+/* blogs  */
+.blog-title{
+  font-size: 3rem;
+}
+.article-date,
+.article-link{
+  color: #00bec9;
+}
+
+/* footer  */
+.footer{
+  background-color: #343434;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.footer a{
+  color: white;
+  text-decoration: none;
+}
+.footer-form{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.footer-search-box{
+  background-color: #ec98d9;
+  color: white;
+  border: 0;
+  padding: 15px;
+  max-width: 100%;
+  position: relative;
+  left: 10px;
+}
+.footer-search-submit{
+  background-color: #00bec9;
+  color: white;
+  border: 0;
+  border-radius: 0;
+  padding: 15px 40px;
+}
+.social-icon{
+  font-size: 25px;
+  padding-left: 5px;
+}
+
+@media only screen and (max-width:1099px){
+  .footer-search-box{
+    max-width: 200px;
+  }
+  .footer-search-submit{
+    padding: 15px 30px;
+  }
+}
+@media only screen and (max-width:949px){
+  .footer-search-box{
+    max-width: 177px;
+  }
+  .footer-search-submit{
+    padding: 15px 20px;
+  }
+}
